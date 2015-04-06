@@ -9,7 +9,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "USB2H4 - USB 2.0 Hub 4 Ports"
-Date "2 apr 2015"
+Date "6 apr 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 ""
@@ -1402,15 +1402,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 5700 14800 5900
 Wire Wire Line
-	14900 5800 14800 5800
-Connection ~ 14800 5800
-Wire Wire Line
 	14900 4400 14800 4400
-Wire Wire Line
-	14800 4400 14800 4600
-Wire Wire Line
-	14900 4500 14800 4500
-Connection ~ 14800 4500
 Wire Wire Line
 	14900 3100 14800 3100
 Wire Wire Line
@@ -1423,21 +1415,9 @@ Wire Wire Line
 Wire Wire Line
 	12900 8050 12900 8150
 Wire Wire Line
-	12950 6750 12900 6750
-Wire Wire Line
-	12900 6750 12900 6850
-Wire Wire Line
-	12950 5450 12900 5450
-Wire Wire Line
-	12900 5450 12900 5550
-Wire Wire Line
 	12950 4150 12900 4150
 Wire Wire Line
 	12900 4150 12900 4250
-Wire Wire Line
-	12950 2850 12900 2850
-Wire Wire Line
-	12900 2850 12900 2950
 Wire Wire Line
 	14900 8150 14500 8150
 Wire Wire Line
@@ -2270,4 +2250,24 @@ Connection ~ 4900 8600
 Wire Wire Line
 	4600 9100 5100 9100
 Connection ~ 4900 9100
+Wire Wire Line
+	14800 5800 14900 5800
+Connection ~ 14800 5800
+Wire Wire Line
+	14800 4400 14800 4600
+Wire Wire Line
+	14900 4500 14800 4500
+Connection ~ 14800 4500
+Wire Wire Line
+	12950 6750 12900 6750
+Wire Wire Line
+	12900 6750 12900 6850
+Wire Wire Line
+	12950 5450 12900 5450
+Wire Wire Line
+	12900 5450 12900 5550
+Wire Wire Line
+	12950 2850 12900 2850
+Wire Wire Line
+	12900 2850 12900 2950
 $EndSCHEMATC
